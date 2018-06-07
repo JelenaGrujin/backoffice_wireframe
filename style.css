@@ -1,0 +1,59 @@
+body{
+	font-family:Iskoola Pota;
+}
+#header{
+border-bottom: 1px solid black;
+height:150px;
+
+}
+.naslov{
+	font-size:9;
+	border-bottom: 1px solid black;
+	padding:6px;
+	margin:3px;
+	height:30px;
+	width:320;
+	float:left;
+}
+.forma{
+	float:right;
+	margin:5;
+	padding-top:15;
+	padding-right:20;
+}
+#content{
+	margin:0;
+	padding:0;
+	float:left;
+
+}
+#register{
+	border:1px solid black;
+	border-radius:15px;
+	float:right;
+	margin:20;
+	padding:20;
+	height:350;
+	width:350;
+}
+.btn1{
+	background-color:#4863A0;
+	border-radius:10px;
+	height:40;
+	width:180;
+	color:white;
+}
+.btn{
+	background-color:#3D3C3A;
+	border-radius:10px;
+	height:30;
+	width:60;
+	color:white;
+}
+.btn2{
+	background-color:#C24641;
+	border-radius:10px;
+	height:40;
+	width:180;
+	color:white;
+}
