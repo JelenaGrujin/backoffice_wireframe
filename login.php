@@ -5,7 +5,7 @@
 <body>
 <div id="header">
 <div class="naslov">
-<h1>NAME OF YOUR AWESOME APP</h1>
+<h1>DEMO APP</h1>
 </div>
 <div class="forma" align="right">
 <form action="routes.php" method="post">
