@@ -1,0 +1,148 @@
+body{
+	font-family:Iskoola Pota;
+	
+}
+#header{
+	margin:0;
+	border-bottom: 1px solid black;
+	height:80px;
+}
+.lista{
+	padding:25;
+	float:left;
+	font-size:20;
+}
+.lista a{
+	color:black;
+	text-decoration:none;
+	padding:10px;
+}
+.lista a:hover{
+	
+	color:grey;
+}
+.ikone{
+	padding:15;
+	float:right;
+	
+}
+.ikone a img{
+	width:50;
+	height:50;
+}
+.naslov{
+	font-size:9;
+	border-bottom: 1px solid black;
+	padding:6px;
+	margin:3px;
+	height:30px;
+	width:150px;
+	float:left;
+}
+.forma{
+	float:right;
+	margin:5;
+	padding-top:15;
+	padding-right:20;
+	list-style-type: none;
+}
+#content{
+	margin:0;
+	padding:0;
+	float:left;
+
+}
+#register{
+	border:1px solid black;
+	border-radius:15px;
+	float:right;
+	margin:20;
+	padding:20;
+	height:350;
+	width:350;
+}
+.btn1{
+	background-color:#4863A0;
+	border-radius:10px;
+	height:40;
+	width:180;
+	color:white;
+}
+.btn{
+	background-color:#3D3C3A;
+	border-radius:10px;
+	height:30;
+	width:60;
+	color:white;
+}
+.btn2{
+	background-color:#C24641;
+	border-radius:10px;
+	height:40;
+	width:180;
+	color:white;
+}
+#content{
+	margin:0;
+}
+.sidebar{
+	float:left;
+	margin:0;
+	padding:0;
+	width:90;
+	height:100%;
+	border-right:1px solid grey;
+}
+.sidebar a img{
+	margin:3;
+	width:70;
+	height:50;
+	padding:10;
+}
+.table{
+	margin-left:300;
+	margin-top:400;
+	border-collapse: collapse;
+    border:1px solid grey;
+
+}
+.table tr:nth-child(even) {
+	background-color: #f2f2f2;
+	}
+.table td{
+	padding:10;
+    text-align: center;
+    width:110;
+    height:50;
+}
+.first{
+	background-color:grey;
+	color:white;
+}
+.area1{
+	border:1px solid grey;
+	height:250;
+	float:left;
+	width:300;
+	margin-left:100;
+	margin-top:50;
+	border-radius:15px;
+}
+.area2{
+	border:1px solid grey;
+	height:250;
+	width:300;
+	float:left;
+	margin-left:50;
+	margin-top:50;
+	border-radius:15px;
+}
+.area3{
+	border:1px solid grey;
+	height:250;
+	width:300;
+	float:left;
+	margin-left:50;
+	margin-top:50;
+	border-radius:15px;
+}
