@@ -1,14 +1,21 @@
 body{
 	font-family:Iskoola Pota;
-	
+	margin:0 auto;
+	width:auto;
 }
 #header{
-	margin:0;
+	margin:0 auto;
 	border-bottom: 1px solid black;
-	height:80px;
+	height:15%;
+	width:100%;
+}
+#wrapper{
+	margin:0 auto;
+	height:85%;
+	width:100%;
 }
 .lista{
-	padding:25;
+	padding:20;
 	float:left;
 	font-size:20;
 }
@@ -31,55 +38,57 @@ body{
 	height:50;
 }
 .naslov{
-	font-size:9;
-	border-bottom: 1px solid black;
-	padding:6px;
-	margin:3px;
-	height:30px;
-	width:150px;
+	font-size:0.75em;
+	border-bottom: 0.16em solid black;
+	padding:0.85em;
+	margin:0.75em;
+	height:3em;
+	width:12em;
 	float:left;
 }
 .forma{
 	float:right;
-	margin:5;
-	padding-top:15;
-	padding-right:20;
+	margin:0.25em !important;
+	padding:0.75em !important;
 	list-style-type: none;
+	height:2.10em !important;
+	font-size:1em !important;
 }
 #content{
 	margin:0;
 	padding:0;
 	float:left;
-
 }
 #register{
-	border:1px solid black;
-	border-radius:15px;
+	border:0.12em solid black;
+	border-radius:1.15em;
 	float:right;
-	margin:20;
-	padding:20;
-	height:350;
-	width:350;
+	margin:2em !important;
+	padding-left:3.15em !important;
+	padding-bottom:2em;
+	height:21em !important;
+	width:16em !important;
+}
+.btn{
+	margin:0.65em;
+	background-color:#3D3C3A;
+	border-radius:0.75em;
+	height:2.15em;
+	width:4.75em;
+	color:white;
 }
 .btn1{
 	background-color:#4863A0;
-	border-radius:10px;
-	height:40;
-	width:180;
-	color:white;
-}
-.btn{
-	background-color:#3D3C3A;
-	border-radius:10px;
-	height:30;
-	width:60;
+	border-radius:0.75em;
+	height:3.15em;
+	width:14em;
 	color:white;
 }
 .btn2{
 	background-color:#C24641;
-	border-radius:10px;
-	height:40;
-	width:180;
+	border-radius:0.75em;
+	height:3.15em;
+	width:14em;
 	color:white;
 }
 #content{
@@ -145,4 +154,46 @@ body{
 	margin-left:50;
 	margin-top:50;
 	border-radius:15px;
+}
+/*-------------------Responsive---------------*/
+@media (max-width: 640px) {
+	
+}
+@media(min-width: 560px) {
+
+}
+@media(min-width: 480px) {
+
+}
+@media(min-width: 320px) {
+.naslov{
+	font-size:0.40em;
+	padding:0.40em;
+	margin:0.10em;
+	height:2.95em;
+	width:11.75em;
+}
+.forma{
+	margin:0.15em;
+	padding:0.25em;
+	height:2em;
+	font-size:0.80em;
+}
+.forma input{
+	height:1.15em;
+	margin:0;
+	width:11.35em;
+}
+.forma input.btn{
+	padding:0;
+	height:1.55em;
+	width:4.30em;
+	border-radius:0.30em;
+}
+#register{
+	margin:1.75em;
+	padding-left:1.75em;
+	height:20.50em;
+	width:14em;
+}
 }
