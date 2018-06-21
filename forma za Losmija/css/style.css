@@ -3,39 +3,63 @@ body{
 	margin:0 auto;
 	width:auto;
 }
+#all{
+	width:100%;
+	height:100%;
+	margin:0 auto;
+}
 #header{
 	margin:0 auto;
 	border-bottom: 1px solid black;
-	height:15%;
+	height:14%;
 	width:100%;
 }
 #wrapper{
-	margin:0 auto;
+	margin:0;
 	height:85%;
 	width:100%;
 }
-.lista{
-	padding:20;
+.sidebar{
 	float:left;
-	font-size:20;
+	margin:o;
+	padding:0;
+	width:5%;
+	height:100%;
+	border-right:1px solid grey;
+}
+.sidebar a img{
+	margin:0.1em;
+	width:3em;
+	height:3em;
+	padding:0.4em;
+}
+.etc{
+	float:right;
+	margin:0;
+	width:94%;
+	height:100%;
+}
+.lista{
+	margin:0 auto;
+	padding:0.75em;
+	float:left;
+	font-size:2em;
 }
 .lista a{
 	color:black;
 	text-decoration:none;
-	padding:10px;
+	padding:0.25em;
 }
 .lista a:hover{
-	
 	color:grey;
 }
 .ikone{
-	padding:15;
+	padding:1em;
 	float:right;
-	
 }
 .ikone a img{
-	width:50;
-	height:50;
+	width:3.3em;
+	height:3.3em;
 }
 .naslov{
 	font-size:0.75em !important;
@@ -99,78 +123,283 @@ body{
 #content{
 	margin:0;
 }
-.sidebar{
+.area1{
+	border:0.16em solid grey;
+	height:16em;
 	float:left;
-	margin:0;
-	padding:0;
-	width:90;
-	height:100%;
-	border-right:1px solid grey;
+	width:18em;
+	margin-left:6em;
+	margin-top:2em;
+	border-radius:1em;
 }
-.sidebar a img{
-	margin:3;
-	width:70;
-	height:50;
-	padding:10;
+.area2{
+	border:0.16em solid grey;
+	height:16em;
+	float:left;
+	width:18em;
+	margin-left:3em;
+	margin-top:2em;
+	border-radius:1em;
+}
+.area3{
+	border:0.16em solid grey;
+	height:16em;
+	float:left;
+	width:18em;
+	margin-left:3em;
+	margin-top:2em;
+	border-radius:1em;
 }
 .table{
-	margin-left:300;
-	margin-top:400;
+	margin-left:13em;
+	margin-top:19em;
 	border-collapse: collapse;
-    border:1px solid grey;
-
+    border:0.10em solid grey;
 }
 .table tr:nth-child(even) {
 	background-color: #f2f2f2;
 	}
 .table td{
-	padding:10;
+	padding:0.50em;
     text-align: center;
-    width:110;
-    height:50;
+    width:7em;
+    height:3.5em;
 }
 .first{
 	background-color:grey;
 	color:white;
 }
+/*-------------------Responsive---------------*/
+@media(max-width: 1023px){
+.lista{
+	padding:0.50em;
+	font-size:1.75em;
+}
+.ikone{
+	padding:0.31em;
+}
+.sidebar a img{
+	margin:0em;
+	width:3em;
+	height:3em;
+	padding:0.1em;
+}
 .area1{
-	border:1px solid grey;
-	height:250;
-	float:left;
-	width:300;
-	margin-left:100;
-	margin-top:50;
-	border-radius:15px;
+	height:12em;
+	width:14em;
+	margin-left:4em;
+	margin-top:1.25em;
 }
 .area2{
-	border:1px solid grey;
-	height:250;
-	width:300;
-	float:left;
-	margin-left:50;
-	margin-top:50;
-	border-radius:15px;
+	height:12em;
+	width:14em;
+	margin-left:2em;
+	margin-top:1.25em;
 }
 .area3{
-	border:1px solid grey;
-	height:250;
-	width:300;
-	float:left;
-	margin-left:50;
-	margin-top:50;
-	border-radius:15px;
+	height:12em;
+	width:14em;
+	margin-left:2em;
+	margin-top:1.25em;
 }
-/*-------------------Responsive---------------*/
-@media (max-width: 640px) {
+.table{
+	margin-left:6em;
+	margin-top:14em;
+}
+.table td{
+	padding:0.40em;
+    width:6em;
+    height:2.8em;
+}
+}
+@media (max-width: 854px) {
+.ikone a img{
+	width:3em;
+	height:3em;
+}
+.sidebar a img{
+	width:2.4em;
+	height:2.4em;
+	padding:0.2em;
+}
+.area1{
+	height:10em;
+	width:12em;
+	margin-left:2em;
+	margin-top:1em;
+}
+.area2{
+	height:10em;
+	width:12em;
+	margin-left:2em;
+	margin-top:1em;
+}
+.area3{
+	height:10em;
+	width:12em;
+	margin-left:2em;
+	margin-top:1em;
+}
+.table{
+	margin-left:3em;
+	margin-top:11.5em;
+}
+.table td{
+	padding:0.30em;
+    width:6em;
+    height:2.8em;
+}
 	
 }
-@media(min-width: 560px) {
-
+@media(max-width: 720px) {
+.sidebar a img{
+	width:2.1em;
+	height:2.1em;
+	padding:0.1em;
 }
-@media(min-width: 480px) {
-
+.area1{
+	height:10em;
+	width:12em;
+	margin-left:1.25em;
+	margin-top:1em;
 }
-@media(min-width: 320px) {
+.area2{
+	height:10em;
+	width:12em;
+	margin-left:1em;
+	margin-top:1em;
+}
+.area3{
+	height:10em;
+	width:12em;
+	margin-left:1em;
+	margin-top:1em;
+}
+.table{
+	margin-left:1em;
+	margin-top:11.5em;
+}
+.table td{
+	padding:0.30em;
+    width:6em;
+    height:2.8em;
+}
+}
+@media(max-width: 640px) {
+.sidebar a img{
+	width:2em;
+	height:2em;
+	padding:0em;
+}
+.area1{
+	height:10em;
+	width:11em;
+	margin-left:0.50em;
+	margin-top:0.50em;
+}
+.area2{
+	height:10em;
+	width:11em;
+	margin-left:0.50em;
+	margin-top:0.50em;
+}
+.area3{
+	height:10em;
+	width:11em;
+	margin-left:0.50em;
+	margin-top:0.50em;
+}
+.table{
+	margin-left:0em;
+	margin-top:11em;
+}
+.table td{
+    width:5.6em;
+}
+}
+@media(max-width: 540px){
+.sidebar a img{
+	width:1.50em;
+	height:1.50em;
+}
+.area1{
+	height:10em;
+	width:10em;
+	margin-left:0.25em;
+	margin-top:0.25em;
+}
+.area2{
+	height:10em;
+	width:10em;
+	margin-left:0.25em;
+	margin-top:0.25em;
+}
+.area3{
+	height:10em;
+	width:10em;
+	margin-left:0.25em;
+	margin-top:0.25em;
+}
+.table td{
+    width:4.6em;
+}
+}
+@media(max-width:480px){
+.lista{
+	padding:0.50em;
+	font-size:1.50em;
+}
+.ikone{
+	padding:0.28em;
+}
+.area1{
+	height:9em;
+	width:8.5em;
+}
+.area2{
+	height:9em;
+	width:8.5em;
+}
+.area3{
+	height:9em;
+	width:8.5em;
+}
+.table td{
+    width:4.05em;
+}
+}
+@media(max-width: 320px) {
+.lista{
+	padding:0em;
+	font-size:1em;
+}
+.ikone{
+	padding:0em;
+}
+.sidebar a img{
+	width:1em;
+	height:1em;
+}
+.area1{
+	height:6em;
+	width:5.7em;
+}
+.area2{
+	height:6em;
+	width:5.7em;
+}
+.area3{
+	height:6em;
+	width:5.7em;
+}
+.table{
+	margin-left:0em;
+	margin-top:10em;
+}
+.table td{
+    width:3.51em;
+    font-size:0.75em;
+}
 .naslov{
 	font-size:0.40em;
 	padding:0.40em;
